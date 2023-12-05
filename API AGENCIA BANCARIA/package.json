@@ -1,0 +1,32 @@
+{
+  "name": "api-agencia-banco",
+  "version": "1.0.1",
+  "description": "Agência Bancária",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [
+    "api",
+    "banco"
+  ],
+  "author": "Bruno Santos Ferreira",
+  "license": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.3",
+    "node": "^21.2.0",
+    "Validator": "^1.1.4",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/dados/**"
+    ],
+    "delay": 3300
+  }
+}
